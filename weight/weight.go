@@ -7,9 +7,9 @@ type Pound float64
 type Kilogram float64
 
 func (p Pound) String() string {
-	return fmt.Sprintf("%g pound", p)
+	return fmt.Sprintf("%g Pound", p)
 }
 
 func (k Kilogram) String() string {
-	return fmt.Sprintf("%g kg", k)
+	return fmt.Sprintf("%g Kg", k)
 }
