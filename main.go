@@ -12,9 +12,9 @@ import (
 	"test.io/conversion/weight"
 )
 
-var l = flag.Float64("l", float64(0), "Allow length conversions")
-var t = flag.Float64("t", float64(0), "Allow temperature conversions")
-var w = flag.Float64("w", float64(0), "Allow weight conversions")
+var l = flag.Float64("l", 0., "Allow length conversions")
+var t = flag.Float64("t", 0., "Allow temperature conversions")
+var w = flag.Float64("w", 0., "Allow weight conversions")
 var in = flag.Bool("i", false, "Interactive mode")
 
 func main() {
